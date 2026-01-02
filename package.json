@@ -1,0 +1,23 @@
+{
+  "name": "genkit-youtube-summary",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.ts",
+  "scripts": {
+    "dev": "npx genkit start -- npx tsx --watch src/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@genkit-ai/google-genai": "^1.27.0",
+    "dotenv": "^17.2.3",
+    "genkit": "^1.27.0"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "2.3.10",
+    "genkit-cli": "^1.27.0"
+  }
+}
